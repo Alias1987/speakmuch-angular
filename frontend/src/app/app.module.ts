@@ -4,12 +4,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from 'src/app/core/core.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ShellComponent } from './shell/shell.component';
+//import { ShellComponent } from './core/shell/shell.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
- //   ShellComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
